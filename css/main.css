@@ -1,0 +1,687 @@
+/*
+	SkyApp Bootstrap Sass Theme
+	Author: Kica brate ko drugi
+	Version: 0.0.1
+*/
+/* BASE  - Base styles, variables, mixins, etc. */
+/* Btw, the difference between the @import in scss is that we dont make individual html requests when we do this, we only make 1 for the actual css file that gets genereted after compiled */
+/* Fonts */
+/* Backgrounds */
+/* Showcase Area */
+/* Mixins */
+/* line 1, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 4, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 7, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 10, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 14, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.top-inner {
+  padding: 90px 0 30px;
+}
+
+/* Image */
+/* line 18, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 21, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 24, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 27, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 30, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_normalize.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 1, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 7, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 10, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 13, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 16, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 19, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -70px;
+}
+
+/* MODULES - Individual site components */
+/* Lists */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 5, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 11, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 15, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* line 18, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+
+/* line 23, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+/* line 28, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-comments {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 32, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto !important;
+}
+
+/* line 37, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-comments li#last-child {
+  border: 0;
+}
+
+/* line 40, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.list-comments img {
+  width: 100px;
+}
+
+/* Icons */
+/* line 44, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 47, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 50, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-4 {
+  font-size: 27px;
+}
+
+/* line 53, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-5 {
+  font-size: 35px;
+}
+
+/* line 56, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-6 {
+  font-size: 40px;
+}
+
+/* line 59, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 62, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.fa-border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+/* line 70, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-primary, .heading-primary-a {
+  color: #00aff0;
+}
+
+/* line 73, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0;
+}
+
+/* line 77, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-secondary, .heading-secondary-a {
+  color: #7fba00;
+}
+
+/* line 80, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00;
+}
+
+/* line 84, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-light, .heading-light-a {
+  color: #e4eef2;
+}
+
+/* line 87, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #e4eef2;
+}
+
+/* line 91, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-dark, .heading-dark-a {
+  color: #2b5464;
+}
+
+/* line 94, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #2b5464;
+}
+
+/* Emphasis */
+/* line 99, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.em-primary {
+  color: #00aff0;
+}
+
+/* line 102, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.em-secondary {
+  color: #7fba00;
+}
+
+/* line 105, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.em-dark {
+  color: #2b5464;
+}
+
+/* line 108, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_typography.scss */
+.em-light {
+  color: #e4eef2;
+}
+
+/* Blocks */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 5, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 9, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+  width: 100%;
+}
+
+/* line 13, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 17, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #fff;
+}
+
+/* line 21, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 25, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-dark {
+  background: #2b5464;
+  color: #fff;
+}
+
+/* line 29, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 32, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 35, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 39, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0;
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* line 45, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px;
+}
+
+/* line 51, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 55, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/* line 60, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
+/* Buttons */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 6, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #57d2ff;
+  border: 2px solid #fff;
+}
+
+/* Sections */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 5, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat center;
+}
+
+/* line 8, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+
+/* line 12, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 16, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 19, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 23, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 27, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: #fff;
+}
+
+/* line 30, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 33, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-dark {
+  background: #2b5464;
+  color: #fff;
+}
+
+/* line 36, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_sections.scss */
+.section-map {
+  margin: -30px auto;
+}
+
+/* Carousel */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 5, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+/* Tabs */
+/* line 10, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.tab-pane {
+  padding: 20px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* line 15, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 18, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-secondary .nav-tabs > li.active > a:focus {
+  background: #7fba00;
+  color: #fff;
+}
+
+/* line 21, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.tab-light .tab-pane, .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-light .nav-tabs > li.active > a:focus {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 24, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_components.scss */
+.tab-dark .tab-pane, .tab-dark .nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-dark .nav-tabs > li.active > a:focus {
+  background: #2b5464;
+  color: #fff;
+}
+
+/* Searchbox */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 4, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 8, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 17, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+/* LAYOUTS - Page layout styles */
+/* Navbar */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 10, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 18, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  background: #00aff0 !important;
+  color: #fff !important;
+}
+
+/* line 22, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #fff !important;
+}
+
+/* Footer */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_footer.scss */
+.footer-main {
+  background: #2b5464;
+  color: #fff;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100;
+}
+
+/* line 8, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #fff;
+}
+
+/* line 11, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+/* Blog */
+/* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_blog.scss */
+.blog-post {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 6, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 10, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 14, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+/* line 19, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_blog.scss */
+.post-meta i {
+  padding: 0 5px;
+}
+
+@media (max-width: 768px) {
+  /* line 2, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 6, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .device {
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  /* line 11, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+  /* line 15, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 19, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .footer-main h4 {
+    text-align: center;
+    color: #88CAD2;
+  }
+  /* line 25, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .list-comments li {
+    padding: 20px 0;
+  }
+  /* line 28, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .list-comments #first_child {
+    padding-top: 0;
+  }
+  /* line 31, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .list-comments #last_child {
+    padding-bottom: 0;
+  }
+  /* line 34, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .list-comments p {
+    margin-top: 25px;
+    text-align: center;
+  }
+  /* line 39, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  #mobile-button-center {
+    display: block;
+    margin: 25px auto 10px auto;
+    width: 25%;
+    font-size: 120%;
+    font-weight: 500;
+    padding: 5px 0;
+  }
+  /* line 48, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .list-location li {
+    text-align: center;
+  }
+  /* line 52, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .list-location-header {
+    text-align: center;
+  }
+  /* line 55, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .section-map {
+    margin-top: -30px;
+  }
+  /* line 58, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .section-main {
+    margin-top: -25px;
+  }
+  /* line 61, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .mobile-correction-less-margin {
+    margin-top: -40px;
+  }
+  /* line 64, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  .mobile-correction-more-margin {
+    margin-top: 15px !important;
+  }
+  /* line 67, C:/Users/jocak/Documents/Programiranje/Tutorijali/YouTube/Traversy Media/Build An HTML5 Template With Bootstrap and SASS (in parts 1-11)/skyapp/scss/layouts/_mobile.scss */
+  #carousel-example-generic {
+    margin-top: 20px !important;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */
